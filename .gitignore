@@ -1,0 +1,9 @@
+# Ignore the downloaded data, except for the instructions
+data/*
+!data/README.md
+
+# Ignore the Python and Jupyter system files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
